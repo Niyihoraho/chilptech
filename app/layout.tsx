@@ -13,8 +13,6 @@ export const metadata: Metadata = {
   title: "CHILPTECH | Customer Support Solutions",
   description: "CHILPTECH delivers reliable, AI-enabled customer support for businesses across Africa—phone, email, live chat, and social media in English, Kinyarwanda, and French.",
   keywords: ["customer support", "outsourced support", "Rwanda", "Africa", "multilingual support", "help desk", "call center"],
-  viewport: "width=device-width, initial-scale=1",
-  themeColor: "#1e40af",
   openGraph: {
     title: "CHILPTECH | Customer Support Solutions",
     description: "Multilingual, tech-driven support that boosts satisfaction, loyalty, and growth across Africa.",
@@ -23,6 +21,12 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#1e40af",
 };
 
 export default function RootLayout({
